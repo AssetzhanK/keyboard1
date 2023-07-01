@@ -7,7 +7,7 @@ import (
 	"strings"
 )
 
-// Чтение текста и конвертация в float64 21:50
+// Чтение текста и конвертация в float64 21:50 asd
 func GetFloat1() (float64, error) {
 	reader := bufio.NewReader(os.Stdin)
 	input, err := reader.ReadString('\n')
